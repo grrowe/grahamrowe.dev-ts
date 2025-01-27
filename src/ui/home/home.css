@@ -1,0 +1,15 @@
+#home-header {
+    display: flex;
+    flex-direction: column;
+}
+
+#home-header h1 {
+    display: flex;
+    width: 60vw;
+    justify-content: flex-start;
+}
+
+#home-header div {
+    font-size: 2em;
+    text-align: left;
+}
