@@ -5,6 +5,7 @@ import "./App.css";
 import Home from "./ui/home/home.tsx";
 import Header from "./ui/nav/nav.tsx";
 import Contact from "./ui/contact/contact.tsx";
+import Footer from './ui/footer/footer.tsx'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         navLinks={[
           { label: "Home", href: "/" },
           { label: "About", href: "/about" },
+          { label: "Resume", href: "/my-creds" },
           { label: "Contact", href: "/contact" },
         ]}
       />
@@ -22,9 +24,12 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
             {/* <Route path="/about" element={<About />} /> */}
+            {/* <Route path="*" element={<NotFound />} />  */}
           </Routes>
         </BrowserRouter>
       </div>
+
+      <Footer />
     </>
   );
 }
