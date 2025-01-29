@@ -1,24 +1,26 @@
 #footer {
-    position: absolute;
-    bottom: 0;
-    left: 50;
-    width: 100vw;
-    margin-top: 50vh;
+  position: sticky;
+  bottom: 0;
+  left: 50;
+  width: 100vw;
+  margin-top: 50vh;
+  z-index: 1;
+  background-color: #242424;
 }
 
 #footerContent {
-    padding-left: 10vw;
-    padding-right: 10vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 #footerContent div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #footerContent div p {
-   padding-right: 10px;
+  padding-right: 10px;
 }

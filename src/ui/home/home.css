@@ -1,6 +1,7 @@
 #home-header {
     display: flex;
     flex-direction: column;
+    padding-top: 25vh;
 }
 
 #home-header h1 {

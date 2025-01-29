@@ -1,0 +1,52 @@
+#resumeContent {
+  display: flex;
+  flex-direction: row;
+  min-height: 65vh;
+  margin-top: 1em;
+}
+
+#leftWrapper {
+  width: 60vw;
+  margin-right: 2vw;
+}
+
+#rightWrapper {
+  width: 20vw;
+}
+
+.title h1 {
+  margin: 0px;
+}
+
+.title h2 {
+  margin: 0px;
+}
+
+.tab {
+  padding-left: 1.5rem;
+}
+
+.negTab {
+  margin-left: -1rem;
+}
+
+.darkColor {
+  color: #6b6b6b;
+}
+
+.noMarginTop {
+  margin-bottom: 0.5rem;
+}
+
+.skillWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.skillWrapper h4 {
+  margin-bottom: 0px;
+}
+
+.skillsList {
+  margin-bottom: 4rem;
+}
