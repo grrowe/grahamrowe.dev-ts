@@ -8,10 +8,11 @@ function Home() {
         <div className="contactCopy">
           <h3>Let's get in Touch</h3>
           <p>
-            Have a project in mind? Like to hire me? I'd love to
-            hear from you! Feel free to reach out using the form to the side, or drop
-            me an email directly at <a href="mailto:grahamrowedev@gmail.com">grahamrowedev@gmail.com</a>. Looking forward to
-            connecting!
+            Have a project in mind? Like to hire me? I'd love to hear from you!
+            Feel free to reach out using the form below, or drop me an
+            email directly at{" "}
+            <a href="mailto:grahamrowedev@gmail.com">grahamrowedev@gmail.com</a>
+            . Looking forward to connecting!
           </p>
         </div>
         <div className="contactForm">

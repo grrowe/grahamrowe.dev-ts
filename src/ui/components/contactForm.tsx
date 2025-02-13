@@ -1,14 +1,4 @@
-// import InputField from "./input"
-
-// const ContactForm = () => {
-//     return <div>
-//         ABV
-
-//         <InputField label='abc' />
-//     </div>
-// }
-
-// export default ContactForm
+import "../contact/contact.css";
 
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
@@ -69,25 +59,29 @@ const ContactForm = () => {
 
   return (
     <div>
-      <h2>Contact Us</h2>
-      {!sent && (
+      <h2>Contact Me!</h2>
+      {!sent ? (
         <form onSubmit={handleSubmit}>
-          <input
-            type="text"
-            name="name"
-            value={formData.name}
-            onChange={handleChange}
-            placeholder="Your Name"
-            required
-          />
-          <input
-            type="email"
-            name="email"
-            value={formData.email}
-            onChange={handleChange}
-            placeholder="Your Email"
-            required
-          />
+          <div className="inputWrapper">
+            <input
+              type="text"
+              name="name"
+              value={formData.name}
+              onChange={handleChange}
+              placeholder="Your Name"
+              required
+              className="nameInput"
+            />
+            <input
+              type="email"
+              name="email"
+              value={formData.email}
+              onChange={handleChange}
+              placeholder="Your Email"
+              required
+            />
+          </div>
+
           <textarea
             name="message"
             value={formData.message}
@@ -98,6 +92,8 @@ const ContactForm = () => {
           <button type="submit">Send</button>
           {status && <p>{status}</p>}
         </form>
+      ) : (
+        <div>{status}</div>
       )}
     </div>
   );

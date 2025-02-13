@@ -1,14 +1,90 @@
 #contactWrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 1.5em;
+  height: 10vh;
 }
 
 .contactCopy {
-    width: 40vw;
+  width: 80vw;
 }
 
 .contactForm {
-    width: 40vw;
+  background-color: #333;
+  padding: 20px;
+  box-shadow: 0 4px 0.5% rgba(0, 0, 0, 0.2);
+  width: 80vw;
+  margin-right: 10vw;
 }
+
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1%;
+}
+
+.nameInput {
+  margin-right: 1%;
+  margin-bottom: 1%;
+}
+
+.contactForm h2 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.contactForm {
+  margin-bottom: 15px;
+}
+
+.contactForm input {
+  width: 30%;
+  padding: 0.5%;
+  border: 1px solid #555;
+  background-color: #444;
+  color: #f5f5dc;
+}
+
+.contactForm textarea {
+  width: 98%;
+  padding: 1%;
+  border: 1px solid #555;
+  background-color: #444;
+  color: #f5f5dc;
+  margin-bottom: 1%;
+}
+
+.contactForm input:focus,
+.contactForm textarea:focus {
+  outline: none;
+  border-color: #f5f5dc;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #f5f5dc;
+  color: #242424;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e5e5c0;
+}
+
+@media (max-width: 1300px) {
+  .contactForm input {
+    width: 60%;
+  }
+}
+
+@media (max-width: 600px) {
+    .contactForm input {
+      width: 99%;
+    }
+  }
+  
