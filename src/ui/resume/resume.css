@@ -41,6 +41,7 @@
 .skillWrapper {
   display: flex;
   flex-direction: column;
+  margin-top: -5px;
 }
 
 .skillWrapper h4 {
