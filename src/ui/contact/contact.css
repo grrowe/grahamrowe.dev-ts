@@ -1,3 +1,5 @@
+@import url("../../variables.css");
+
 #contactWrapper {
   display: flex;
   flex-direction: column;
@@ -11,11 +13,12 @@
 }
 
 .contactForm {
-  background-color: #333;
+  background-color: var(--off-bg-color);
   padding: 20px;
   box-shadow: 0 4px 0.5% rgba(0, 0, 0, 0.2);
   width: 80vw;
   margin-right: 10vw;
+  margin-bottom: 15px;
 }
 
 .inputWrapper {
@@ -34,38 +37,34 @@
   margin-top: 0;
 }
 
-.contactForm {
-  margin-bottom: 15px;
-}
-
 .contactForm input {
   width: 30%;
   padding: 0.5%;
-  border: 1px solid #555;
-  background-color: #444;
-  color: #f5f5dc;
+  border: 1px solid var(--input);
+  background-color: var(--input);
+  color: var(--text-color);
 }
 
 .contactForm textarea {
   width: 98%;
   padding: 1%;
-  border: 1px solid #555;
-  background-color: #444;
-  color: #f5f5dc;
+  border: 1px solid var(--input);
+  background-color: var(--input);
+  color: var(--text-color);
   margin-bottom: 1%;
 }
 
 .contactForm input:focus,
 .contactForm textarea:focus {
   outline: none;
-  border-color: #f5f5dc;
+  border-color: var(--a-hightlight);
 }
 
 button {
   width: 100%;
   padding: 10px;
-  background-color: #f5f5dc;
-  color: #242424;
+  background-color: var(--invert-bg-color);
+  color: var(--invert-text-color);
   font-weight: bold;
   border: none;
   border-radius: 5px;
@@ -73,7 +72,7 @@ button {
 }
 
 button:hover {
-  background-color: #e5e5c0;
+  background-color: var(--a-hightlight);
 }
 
 @media (max-width: 1300px) {
@@ -83,8 +82,12 @@ button:hover {
 }
 
 @media (max-width: 600px) {
-    .contactForm input {
-      width: 99%;
-    }
+  .contactForm input {
+    width: 99%;
   }
-  
+}
+
+.submit {
+  width: 10vw;
+  min-width: 100px;
+}

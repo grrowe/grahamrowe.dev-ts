@@ -89,7 +89,7 @@ const ContactForm = () => {
             placeholder="Your Message"
             required
           />
-          <button type="submit">Send</button>
+          <button type="submit" className="submit">Send</button>
           {status && <p>{status}</p>}
         </form>
       ) : (

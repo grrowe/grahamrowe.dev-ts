@@ -1,5 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+import { useState, useEffect } from "react";
+
 import "./App.css";
 
 import Home from "./ui/home/home.tsx";
@@ -7,13 +9,32 @@ import Header from "./ui/nav/nav.tsx";
 import Contact from "./ui/contact/contact.tsx";
 import Footer from "./ui/footer/footer.tsx";
 import Resume from "./ui/resume/resume.tsx";
-import About from "./ui/about/about.tsx"
+import About from "./ui/about/about.tsx";
 import NotFound from "./ui/404/404.tsx";
 
 function App() {
+  const [theme, setTheme] = useState(() => {
+    const storedTheme = localStorage.getItem("theme");
+    if (storedTheme) return storedTheme;
+    return window.matchMedia("(prefers-color-scheme: dark)").matches
+      ? "dark"
+      : "light";
+  });
+
+  useEffect(() => {
+    document.documentElement.classList.toggle("dark", theme === "dark");
+    localStorage.setItem("theme", theme);
+  }, [theme]);
+
+  const toggleTheme = () => {
+    setTheme((prevTheme) => (prevTheme === "dark" ? "light" : "dark"));
+  };
+
   return (
-    <div id='container'>
+    <div id="container">
       <Header
+        toggleTheme={toggleTheme}
+        theme={theme}
         navLinks={[
           { label: "Home", href: "/" },
           { label: "About", href: "/about" },
@@ -33,7 +54,7 @@ function App() {
         </BrowserRouter>
       </div>
 
-      <Footer />
+      <Footer theme={theme} />
     </div>
   );
 }

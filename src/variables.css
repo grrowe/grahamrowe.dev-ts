@@ -1,0 +1,27 @@
+:root {
+  --bg-color: #f5f5dc;
+  --text-color: #242424;
+
+  --a-hightlight: #a0522d;
+
+  --invert-bg-color: #242424;
+  --invert-text-color: #f5f5dc;
+
+  --off-bg-color: #eaeab4;
+
+  --input: #dfdf8c;
+}
+
+.dark {
+  --bg-color: #242424;
+  --text-color: #f5f5dc;
+
+  --invert-bg-color: #f5f5dc;
+  --invert-text-color: #242424;
+
+  --a-hightlight: #d4c79e;
+
+  --off-bg-color: #494949;
+
+  --input: #626262;
+}

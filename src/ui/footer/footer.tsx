@@ -1,18 +1,29 @@
-import React from "react";
-
 import "./footer.css";
-import { LinkedIn, Github, SourceCode } from "../components/footerSocials";
+import {
+  LinkedIn,
+  Github,
+  SourceCode,
+  Moon,
+  Sun,
+} from "../components/footerSocials";
 
-const Footer: React.FC<any> = ({}) => {
+interface FooterProps {
+  theme?: string;
+}
+
+const Footer = ({ theme }: FooterProps) => {
   return (
     <div id="footer">
       <div id="footerContent">
         <div>
           <LinkedIn
             link="https://www.linkedin.com/in/gmrowewebdev/"
-            dark={false}
+            dark={theme === "dark" ? true : false}
           />
-          <Github link="https://github.com/grrowe" dark={false} />
+          <Github
+            link="https://github.com/grrowe"
+            dark={theme === "dark" ? true : false}
+          />
         </div>
         <div>
           <p className="footerText">
@@ -34,7 +45,7 @@ const Footer: React.FC<any> = ({}) => {
           </p>
           <SourceCode
             link="https://github.com/grrowe/grahamrowe.dev-ts"
-            dark={false}
+            dark={theme === "dark" ? true : false}
           />
         </div>
       </div>
