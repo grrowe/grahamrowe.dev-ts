@@ -2,9 +2,7 @@ import "./footer.css";
 import {
   LinkedIn,
   Github,
-  SourceCode,
-  Moon,
-  Sun,
+  SourceCode
 } from "../components/footerSocials";
 
 interface FooterProps {
