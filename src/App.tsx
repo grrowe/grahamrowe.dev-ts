@@ -7,6 +7,8 @@ import Header from "./ui/nav/nav.tsx";
 import Contact from "./ui/contact/contact.tsx";
 import Footer from "./ui/footer/footer.tsx";
 import Resume from "./ui/resume/resume.tsx";
+import About from "./ui/about/about.tsx"
+import NotFound from "./ui/404/404.tsx";
 
 function App() {
   return (
@@ -25,8 +27,8 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/my-creds" element={<Resume />} />
-            {/* <Route path="/about" element={<About />} /> */}
-            {/* <Route path="*" element={<NotFound />} />  */}
+            <Route path="/about" element={<About />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
       </div>
