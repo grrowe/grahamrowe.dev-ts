@@ -51,10 +51,40 @@ button:focus-visible {
     color: #213547;
     background-color: #ffffff;
   }
+  a {
+    color: #213547 !important;
+  }
   a:hover {
-    color: #747bff;
+    color: #9dc2e3;
   }
   button {
     background-color: #f9f9f9;
   }
+  .navLink {
+    color: #ffffff !important;
+  }
+
+  .footerText {
+    color: #ffffff;
+  }
+
+  .contactForm {
+    background-color: #f0f0f0 !important;
+  }
+
+  .contactForm input {
+    background-color: #e8e8e8 !important;
+    color: #213547 !important;
+  }
+  
+  .contactForm textarea {
+    background-color: #e8e8e8 !important;
+    color: #213547 !important;
+  }
+
+  button {
+    background-color: #242424 !important;
+    color: #f5f5dc !important;
+  }
+  
 }

@@ -2,7 +2,6 @@ import React from "react";
 
 import "./footer.css";
 import { LinkedIn, Github, SourceCode } from "../components/footerSocials";
-import DownloadResume from "../components/downloadResume";
 
 const Footer: React.FC<any> = ({}) => {
   return (
@@ -16,7 +15,7 @@ const Footer: React.FC<any> = ({}) => {
           <Github link="https://github.com/grrowe" dark={false} />
         </div>
         <div>
-          <p>
+          <p className="footerText">
             Wanna check out the{" "}
             <span
               style={{ cursor: "pointer", textDecoration: "underline" }}
@@ -44,13 +43,3 @@ const Footer: React.FC<any> = ({}) => {
 };
 
 export default Footer;
-
-/*
-In footer:
-- wanna check the source code: Github link
-
-- link to socials, linkedin, etc.
-
-- my email and where I am working from
-
-*/
