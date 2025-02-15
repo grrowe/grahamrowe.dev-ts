@@ -9,7 +9,7 @@ import Header from "./ui/nav/nav.tsx";
 import Contact from "./ui/contact/contact.tsx";
 import Footer from "./ui/footer/footer.tsx";
 import Resume from "./ui/resume/resume.tsx";
-import About from "./ui/about/about.tsx";
+// import About from "./ui/about/about.tsx";
 import NotFound from "./ui/404/404.tsx";
 import Projects from "./ui/projects/projects.tsx";
 
