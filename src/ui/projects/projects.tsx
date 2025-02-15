@@ -43,7 +43,7 @@ const Projects = () => {
                 Tech Stack:
                 Frontend: Vite (React)
                 Backend: Ruby on Rails, PostgreSQL
-                Devops: Aptible, AWS
+                Devops: Aptible, AWS, Docker
             </div>
         </div>
 
@@ -68,7 +68,7 @@ const Projects = () => {
                 Tech Stack:
                 Frontend: Ember.js
                 Backend: Ruby on Rails, PostgreSQL
-                Devops: Aptible, AWS
+                Devops: Aptible, AWS, Docker
             </div>
 
             <div>
