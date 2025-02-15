@@ -15,6 +15,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+::selection {
+  background: var(--text-color);
+  color: var(--bg-color);
+} 
+
 body {
   margin: 0;
   display: flex;

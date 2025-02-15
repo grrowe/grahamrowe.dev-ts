@@ -5,7 +5,7 @@
   bottom: 0;
   left: 50;
   width: 100vw;
-  margin-top: 50vh;
+  /* margin-top: 50vh; */
   z-index: 1;
   background-color: var(--bg-color);
 }

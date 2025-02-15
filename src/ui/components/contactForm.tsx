@@ -59,7 +59,7 @@ const ContactForm = () => {
 
   return (
     <div>
-      <h2>Contact Me!</h2>
+      {/* <h2>Contact Me!</h2> */}
       {!sent ? (
         <form onSubmit={handleSubmit}>
           <div className="inputWrapper">

@@ -52,6 +52,8 @@
   background-color: var(--input);
   color: var(--text-color);
   margin-bottom: 1%;
+  height: 25vh;
+  resize: none;
 }
 
 .contactForm input:focus,
