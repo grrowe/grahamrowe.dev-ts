@@ -9,7 +9,8 @@ env:
 on:
   # Triggers the workflow on push or pull request events but only for the production branch
   push:
-    branches: [main]
+      tags:
+        - 'v*'  # This pattern will match tags like v1.0.0, v1.2.3, etc.
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
