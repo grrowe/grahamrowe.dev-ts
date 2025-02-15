@@ -11,6 +11,7 @@ import Footer from "./ui/footer/footer.tsx";
 import Resume from "./ui/resume/resume.tsx";
 import About from "./ui/about/about.tsx";
 import NotFound from "./ui/404/404.tsx";
+import Projects from "./ui/projects/projects.tsx";
 
 function App() {
   const [theme, setTheme] = useState(() => {
@@ -37,8 +38,9 @@ function App() {
         theme={theme}
         navLinks={[
           { label: "Home", href: "/" },
-          { label: "About", href: "/about" },
+          { label: "Projects", href: "/projects" },
           { label: "Resume", href: "/my-creds" },
+          { label: "About", href: "/about" },
           { label: "Contact", href: "/contact" },
         ]}
       />
@@ -49,6 +51,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/my-creds" element={<Resume />} />
             <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
