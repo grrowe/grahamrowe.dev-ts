@@ -40,7 +40,7 @@ function App() {
           { label: "Home", href: "/" },
           { label: "Projects", href: "/projects" },
           { label: "Resume", href: "/my-creds" },
-          { label: "About", href: "/about" },
+          // { label: "About", href: "/about" }, redacted, I think it is overkill
           { label: "Contact", href: "/contact" },
         ]}
       />
@@ -50,7 +50,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/my-creds" element={<Resume />} />
-            <Route path="/about" element={<About />} />
+            {/* <Route path="/about" element={<About />} /> */}
             <Route path="/projects" element={<Projects />} />
             <Route path="*" element={<NotFound />} />
           </Routes>

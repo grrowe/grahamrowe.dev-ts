@@ -2,6 +2,8 @@
   --bg-color: #f5f5dc;
   --text-color: #242424;
 
+  --bg-rgb-color: rgb(36, 36, 36);
+
   --a-hightlight: #a0522d;
 
   --invert-bg-color: #242424;
@@ -15,6 +17,8 @@
 .dark {
   --bg-color: #242424;
   --text-color: #f5f5dc;
+
+  --bg-rgb-color: rgb(245, 245, 220);
 
   --invert-bg-color: #f5f5dc;
   --invert-text-color: #242424;

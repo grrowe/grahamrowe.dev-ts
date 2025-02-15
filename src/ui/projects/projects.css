@@ -1,1 +1,26 @@
-@import url('../../variables.css');
+@import url("../../variables.css");
+
+.feature li {
+  list-style: none;
+  padding-left: 1vw;
+}
+
+.feature h4 {
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+.feature p {
+  margin: 0;
+  padding: 0;
+}
+
+.project {
+  padding-left: 1vw;
+  border-bottom: solid;
+  padding-bottom: 2vh;
+}
+
+.feature {
+    padding-bottom: 1vh;
+}
