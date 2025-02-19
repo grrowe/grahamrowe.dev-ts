@@ -1,18 +1,36 @@
 #home-header {
-    display: flex;
-    flex-direction: column;
-    padding-top: 20vh;
-    height: 10vh;
-    max-height: fit-content;
+  display: flex;
+  flex-direction: column;
+  padding-top: 15vh;
+  height: 10vh;
+  max-height: fit-content;
 }
 
 #home-header h1 {
-    display: flex;
-    width: 60vw;
-    justify-content: flex-start;
+  display: flex;
+  width: 60vw;
+  justify-content: flex-start;
 }
 
 #home-header div {
-    font-size: 2em;
-    text-align: left;
+  font-size: 2em;
+  text-align: left;
+}
+
+@media screen and (max-width: 1200px) {
+  #home-header {
+    padding-top: 10vh;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #home-header {
+    padding-top: 5vh;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #home-header {
+    padding-top: 0;
+  }
 }

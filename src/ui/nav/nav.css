@@ -18,7 +18,7 @@
   justify-content: space-between;
   align-items: flex-start;
   width: 20vw;
-  padding-left: 10vw;
+  padding-left: 9vw;
 }
 
 .navLink {
@@ -43,3 +43,53 @@ nav {
 .darkModeButton button:hover {
   background-color: var(--a-hightlight);
 }
+
+@media screen and (max-width: 1200px) {
+  #nav #navLinks {
+    padding-left: 8vw;
+    width: 25vw;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #nav #navLinks {
+    padding-left: 8vw;
+    width: 30vw;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #nav #navLinks {
+    padding-left: 8vw;
+    width: 35vw;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #nav #navLinks {
+    padding-left: 8vw;
+    width: 40vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #nav #navLinks {
+    padding-left: 7vw;
+    width: 50vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #nav #navLinks {
+    padding-left: 5vw;
+    width: 65vw;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  #nav #navLinks {
+    width: 80vw;
+  }
+}
+
+

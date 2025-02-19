@@ -16,9 +16,10 @@
   background-color: var(--off-bg-color);
   padding: 20px;
   box-shadow: 0 4px 0.5% rgba(0, 0, 0, 0.2);
-  width: 80vw;
+  width: 75vw;
   margin-right: 10vw;
   margin-bottom: 15px;
+  max-width: 75vw;
 }
 
 .inputWrapper {
