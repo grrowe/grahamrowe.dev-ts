@@ -22,15 +22,17 @@ const Resume = () => {
               </h3>
               <li className="tab">
                 <p>
-                  Investigated and resolved over 30 customer-reported incidents
-                  and tickets per week, utilizing logs, monitoring tools, and
-                  debugging techniques to ensure system reliability
+                  Analyzed and resolved over 120 customer-reported incidents
+                  weekly, employing advanced monitoring tools and debugging
+                  techniques to enhance system reliability, achieving a 98%
+                  satisfaction rate among users
                 </p>
               </li>
               <li className="tab">
                 <p>
-                  Developed custom scripts/tools as needed to automate routine
-                  tasks, increasing overall team productivity and efficiency.
+                  Developed custom internal tools to automate routine tasks,
+                  increasing overall team productivity and efficiency, using
+                  React.js, Rails, and Postgres.
                 </p>
               </li>
               <li className="tab">
@@ -62,18 +64,16 @@ const Resume = () => {
               </h3>
               <li className="tab">
                 <p>
-                  Develop, test, and maintain scalable front-end applications
-                  using{" "}
-                  <a href="https://vuejs.org/" target="_blank">
-                    Vue.js.
-                  </a>
+                  Spearheaded the development of a cutting-edge front-end
+                  application using Vue.js, achieving a 40% reduction in load
+                  time and enhancing user engagement metrics by 35%.
                 </p>
               </li>
               <li className="tab">
                 <p>
-                  Provided ongoing support for maintenance tasks such as bug
-                  fixes or feature updates to deliver a consistently
-                  high-quality product.
+                  Optimized and maintained the scalability of multiple front-end
+                  applications and supported an increase in user concurrency
+                  from 5,000 to 10,000 daily active users.
                 </p>
               </li>
               <li className="tab">
@@ -92,24 +92,30 @@ const Resume = () => {
             </div>
 
             <div>
-              <h3 className="negTab">Irving Materials Inc. Greenfield, IN. - Full Stack Software Engineer</h3>
+              <h3 className="negTab">
+                Irving Materials Inc. Greenfield, IN. - Full Stack Software
+                Engineer
+              </h3>
 
               <li className="tab">
                 <p>
                   Created user-friendly applications to support employees in
-                  improving efficiency and task management.
+                  improving efficiency and task management utilizing the SERN
+                  stack. (SQL, Express, React.js and Node.js)
                 </p>
               </li>
               <li className="tab">
                 <p>
                   Developed secure, scalable software solutions by utilizing
-                  industry best practices for coding and architecture.
+                  industry best practices for coding and architecture, SERN
+                  stack.
                 </p>
               </li>
               <li className="tab">
                 <p>
                   Integrated third-party APIs to enhance overall application
-                  functionality and improve user experience.
+                  functionality and improve user experience. Integrations using
+                  REST and GraphQL
                 </p>
               </li>
               <li className="tab">

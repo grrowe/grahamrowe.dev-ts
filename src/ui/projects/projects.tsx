@@ -4,6 +4,12 @@ const Projects = () => {
   return (
     <div>
       <h2>Projects</h2>
+      <div className="grahamCLI project">
+        <h3>Pong Node.JS CLI</h3>
+        <div>
+          PLAY PONG
+        </div>
+      </div>
       <div className="thisWebsite project">
         <h3>Project Name: My Portfolio Site</h3>
         <div>
@@ -170,9 +176,9 @@ const Projects = () => {
         <div className="role feature">
           <h4>My Role:</h4>
           <li>
-            I was part of a small development team, working on desiginng and implementing new
-            applications for different departments across Irving Materials to
-            help processes to work smoother.
+            I was part of a small development team, working on desiginng and
+            implementing new applications for different departments across
+            Irving Materials to help processes to work smoother.
           </li>
         </div>
       </div>
