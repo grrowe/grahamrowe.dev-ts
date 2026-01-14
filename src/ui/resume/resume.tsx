@@ -9,7 +9,7 @@ const Resume = () => {
       <div id="leftWrapper">
         <div className="title">
           <h1>Graham Rowe</h1>
-          <h2 className="darkColor">Full Stack Software Engineer</h2>
+          <h2 className="darkColor">Senior Software Engineer</h2>
         </div>
 
         <div className="workExp">
@@ -54,7 +54,7 @@ const Resume = () => {
                 </p>
               </li>
               <div className="darkColor negTab">
-                Auguest 2022 - November 2024
+                August 2022 - November 2024
               </div>
             </div>
 
@@ -88,7 +88,7 @@ const Resume = () => {
                   following best practices in component-based architecture.
                 </p>
               </li>
-              <div className="darkColor negTab">March 2022 - Auguest 2022</div>
+              <div className="darkColor negTab">March 2022 - August 2022</div>
             </div>
 
             <div>
@@ -135,7 +135,7 @@ const Resume = () => {
           <h3 className="tab">
             Indiana University Purdue University Indianapolis (IUPUI)
           </h3>
-          <div className="darkColor tab">Auguest 2018 - May 2021</div>
+          <div className="darkColor tab">August 2018 - May 2021</div>
         </div>
       </div>
 
