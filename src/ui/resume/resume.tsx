@@ -17,6 +17,64 @@ const Resume = () => {
 
           <ul>
             <div>
+  <h3 className="negTab">
+    Remodel Health, Indianapolis, IN. – Senior Software Engineer
+  </h3>
+
+  <li className="tab">
+    <p>
+      Developing and integrating third-party HR platforms into the company’s
+      existing product to support benefits, payroll, and employee data
+      workflows.
+    </p>
+  </li>
+  <li className="tab">
+    <p>
+      Building and maintaining APIs and backend services to enable reliable,
+      secure data exchange between internal systems and external HR providers.
+    </p>
+  </li>
+  <li className="tab">
+    <p>
+      Implementing full-stack features from database schema design through
+      frontend interfaces using modern JavaScript and TypeScript frameworks.
+    </p>
+  </li>
+  <li className="tab">
+    <p>
+      Collaborating with product, design, and engineering teammates to translate
+      business requirements into production-ready integrations.
+    </p>
+  </li>
+
+  <div className="darkColor negTab">January 2026 – Present</div>
+
+  <h3 className="negTab" style={{ marginTop: "0.75rem" }}>
+    Remodel Health, Indianapolis, IN. – Full Stack Engineer
+  </h3>
+
+  <li className="tab">
+    <p>
+      Contributed to development of core application features and HR-related
+      integrations within a production SaaS environment.
+    </p>
+  </li>
+  <li className="tab">
+    <p>
+      Implemented RESTful APIs and data models to support third-party platform
+      connections and internal workflows.
+    </p>
+  </li>
+  <li className="tab">
+    <p>
+      Worked closely with team members to test, debug, and maintain integrations
+      across multiple environments.
+    </p>
+  </li>
+
+  <div className="darkColor negTab">June 2025 – January 2026</div>
+</div>
+            <div>
               <h3 className="negTab">
                 Aptible, Remote - Customer Reliability Engineer
               </h3>
