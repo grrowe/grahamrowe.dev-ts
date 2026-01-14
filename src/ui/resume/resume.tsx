@@ -16,10 +16,16 @@ const Resume = () => {
           <h2>Work</h2>
 
           <ul>
-            <div>
+<div>
+  {/* Company Header */}
   <h3 className="negTab">
-    Remodel Health, Indianapolis, IN. – Senior Software Engineer
+    Remodel Health · Indianapolis, IN (Hybrid)
   </h3>
+
+  {/* Senior Role */}
+  <h4 className="tab">
+    Senior Software Engineer
+  </h4>
 
   <li className="tab">
     <p>
@@ -47,11 +53,12 @@ const Resume = () => {
     </p>
   </li>
 
-  <div className="darkColor negTab">January 2026 – Present</div>
+  <div className="darkColor tab">January 2026 – Present</div>
 
-  <h3 className="negTab" style={{ marginTop: "0.75rem" }}>
-    Remodel Health, Indianapolis, IN. – Full Stack Engineer
-  </h3>
+  {/* Previous Role */}
+  <h4 className="tab" style={{ marginTop: "0.5rem" }}>
+    Full Stack Engineer
+  </h4>
 
   <li className="tab">
     <p>
@@ -72,8 +79,9 @@ const Resume = () => {
     </p>
   </li>
 
-  <div className="darkColor negTab">June 2025 – January 2026</div>
+  <div className="darkColor tab">June 2025 – January 2026</div>
 </div>
+            
             <div>
               <h3 className="negTab">
                 Aptible, Remote - Customer Reliability Engineer
